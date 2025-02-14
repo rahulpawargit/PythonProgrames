@@ -7,4 +7,11 @@ count = 0
 #
 # print(str(count))
 
-print(len(str(num)))
+while num != 0 :
+    num = num // 10
+    count = count + 1
+
+print((count))
+
+
+# print(len(str(num)))

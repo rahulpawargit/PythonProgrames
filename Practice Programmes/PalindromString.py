@@ -1,5 +1,5 @@
-# str1 =' aIbohPhoBiA'
-# str1 = str1.casefold()
+str1 =' NITIN'
+str1 = str1.lower()
 #
 # revstr= reversed(str1)
 #
@@ -8,7 +8,15 @@
 # else:
 #     print("String is not palindraom")
 
+
+# revstr = reversed(str1)
+# if list(str1) == list(revstr):
+#    print("String is palindrom")
+# else:
+#    print("String is not palnidrom")
+
 # Program to check if a string is palindrome or not
+
 
 my_str = 'nitin'
 
