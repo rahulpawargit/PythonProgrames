@@ -23,9 +23,16 @@ lst2=[[8,7,6]]
 
 res=[ [0,0,0]]
 
-for i in range (len(lst1)):
+# for i in range (len(lst1)):
+#     for j in range(len(lst1[0])):
+#         res[i][j]= lst1[i][j] + lst2[i][j]
+#
+# for r in res:
+#     print(r)
+
+for i in range(len(lst1)):
     for j in range(len(lst1[0])):
-        res[i][j]= lst1[i][j] + lst2[i][j]
+        res[i][j]=lst1[i][j] + lst2[i][j]
 
 for r in res:
     print(r)
